@@ -28,7 +28,7 @@ function ProductList() {
   return (
     <>
       <div className="bg-gray-100 overflow-y-scroll">
-        <div className="mx-32 my-10 p-10 bg-white">
+        <div className="md:mx-32 mx-4 my-10 md:p-10 p-2 bg-white">
           <div className="flex  justify-end pr-10 pb-5 ">
             <input
               type="text"
