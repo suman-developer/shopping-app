@@ -38,7 +38,7 @@ function ProductList() {
             />
             <Filter />
           </div>
-          <div className=" grid grid-cols-3 gap-3 justify-evenly">
+          <div className=" min-w-min grid grid-cols-1 gap-3 md:grid-cols-3 justify-evenly">
             {products &&
               filteredProducts.map((item) => (
                 <Product
